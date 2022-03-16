@@ -72,6 +72,7 @@ The following metrics are applied to evaluate the performance of Tzer and the co
 \subsection{Number of Detected Bugs}  The number of previously unknown bugs detected by all of the analyzed strategies are also reported, since bug identification is the ultimate goal for such techniques. We classify distinct bugs in this paper based on how they are essentially fixed.
 \section{Significance}
 In terms of bugs found, the significance of the bugs and the number of bugs are nearly ten times of the previous work.
+
 \section{Novelty}
 The Domain-Specific part is the main novelty of this project. Domain-Specific specializes in programming containing a lot of loops. Existing tensor compilers use the idea of pass to optimize the supplied IR or include annotations holding vital information for subsequent optimization to optimize certain hot spot program structures. General-purpose mutators, while adaptable in handling multiple sorts of expressions, are nevertheless inefficient and not specialized to the specific domain that tensor compilers are created for when it comes to triggering the complicated logic underlying those optimization runs.
 \subsection{Loop Nesting}
